@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+.font-change {
+  font-family: 'Rouge Script';
+}
+
+.font-change2 {
+  font-family: 'Fredericka the Great';
+}
+
+.font-change3 {
+  font-family: 'Outfit';
+}
+
+/* index.css or global.css */
+body {
+  background-color: #8e44ad !important;/* Or whatever main background you used */
+  overflow-x: hidden; /* Optional: to stop horizontal scroll due to oversizing */
+}
+
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #703d46, #a25d6a, #7d5877, #a36f8c);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+
+
+
+
+
+
